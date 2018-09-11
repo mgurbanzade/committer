@@ -1,4 +1,6 @@
-class App
+#!/usr/bin/env ruby
+
+class GithubCommitter
   attr_reader :repo_name, :file_name
 
   def initialize
@@ -37,4 +39,4 @@ class App
   end
 end
 
-App.new
+GithubCommitter.new
