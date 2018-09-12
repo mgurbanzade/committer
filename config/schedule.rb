@@ -1,3 +1,3 @@
-every 6.hours do
+every 4.hours do
   command "github_committer.rb"
 end
