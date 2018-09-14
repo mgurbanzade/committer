@@ -6,27 +6,32 @@
 
 Notice: You need to have ruby, homebrew and bundler preinstalled before taking these steps.
 
-1. **Make github_committer.rb executable. In committer/app directory run**
+**Make github_committer.rb executable. In committer/app directory run**
 
-``sh
-  chmod 755 github_committer.rb
-  ln -s $PWD/github_committer.rb /usr/local/bin/
-``
+```sh
+$ ln -s $PWD/github_committer.rb /usr/local/bin/
+```
 
-2. **Install github hub**
+**Install github hub**
 
-``sh
-brew install hub
-``
+```sh
+$ brew install hub
+```
 
-3. **Run bundle**
+**Run bundle**
 
-``sh
-bundle
-``
+```sh
+$ bundle
+```
 
-4. **Initialize task scheduler**
+**Initialize task scheduler**
 
-``sh
-whenever -w
-``
+```sh
+$ whenever -w
+```
+
+**To stop commiting run:**
+
+```sh
+$ whenever -c
+```
