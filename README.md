@@ -9,8 +9,8 @@ Notice: You need to have ruby, homebrew and bundler preinstalled before taking t
 **Make github_committer.rb executable. In committer/app directory run**
 
 ```sh
-  $ chmod 755 github_committer.rb
-  $ ln -s $PWD/github_committer.rb /usr/local/bin/
+$ chmod 755 github_committer.rb
+$ ln -s $PWD/github_committer.rb /usr/local/bin/
 ```
 
 **Install github hub**
